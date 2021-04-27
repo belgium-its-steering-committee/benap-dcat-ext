@@ -1,0 +1,14 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix locn: <http://www.w3.org/ns/locn> .
+
+# incomplete, not valid
+dct:spatial [ a dct:Location ;
+            locn:geometry "POLYGON ((3.6035 50.9827, 3.6035 51.2792, 5.2405 51.2792, 5.2405 50.9827, 3.6035 50.9827))"^^gsp:wktLiteral,
+                "{\"type\":\"Polygon\",\"coordinates\":[[[3.603516,50.982749],[3.603516,51.279206],[5.240479,51.279206],[5.240479,50.982749],[3.603516,50.982749]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> ] ;
+              a dct:Location "http://publications.europa.eu/resource/authority/country/BEL";
+              a dct:Location "http://data.europa.eu/nuts/code/BE2";
+

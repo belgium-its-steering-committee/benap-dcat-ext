@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+xmlns:foaf="http://xmlns.com/foaf/0.1/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dcat="http://www.w3.org/ns/dcat#"
+xmlns:dct="http://purl.org/dc/terms/"
+xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+xmlns:locn="http://www.w3.org/ns/locn"
+>
+
+<dct:spatial>
+    <dct:Location rdf:resource="http://publications.europa.eu/resource/authority/country/BEL" />
+    <dct:Location rdf:resource="http://data.europa.eu/nuts/code/BE2" />
+    <dct:Location>
+        <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.6035 50.9827, 3.6035 51.2792, 5.2405 51.2792, 5.2405 50.9827, 3.6035 50.9827))</locn:geometry>
+        <locn:geometry rdf:datatype="https://www.iana.org/assignments/media-types/application/vnd.geo+json">{"type":"Polygon","coordinates":[[[3.603516,50.982749],[3.603516,51.279206],[5.240479,51.279206],[5.240479,50.982749],[3.603516,50.982749]]]}</locn:geometry>
+    </dct:Location>
+</dct:spatial>
+
+</rdf:RDF>
