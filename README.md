@@ -12,8 +12,8 @@
 
 | Property | Desciption  | Mandatory  | URI| Type |
 | ---------| ----------- |:----------:| ---| ------|
-| language| Describes the language(s) in which you will fill in the metadata in this form. | true | | |
-| title| Describes the dataset in generic terms or gives a short description. The author is encouraged to write a meaningful description in one of the selected metadata language. | true | | |
+| language| Describes the language(s) in which you will fill in the metadata in this form. | true | dct:language | |
+| title| Describes the dataset in generic terms or gives a short description. The author is encouraged to write a meaningful description in one of the selected metadata language. | true | dct:title | |
 | description | Gives the user more information about the content of the dataset or service. This MUST be filled in all selected metadata languages. | true | | |
 | resource type | Dataset or Service | true | dc:type | |
 | organisation name | The \"contact point\", describes an organisation, if applicable a person, which is responsible for the creation and maintenance of the metadata. This person or organization is the single point of contact for the present metadata set.  | true | | |
@@ -32,7 +32,7 @@
 | transportation modes| Describes the transportation mode(s) covered by the data set.| true | | |
 | license | Describes the conditions of use of the data set. | true | dc:license | rdf:resource |
 | license type | Describes the conditions of use of the data set. | true | | |
-| frequency | Describes the update rate of the data set. | true | | |
+| frequency | Describes the update rate of the data set. | true | dct:accrualPeriodicity | |
 | theme | Dataset theme | true | dcat:theme | |
 
 &nbsp;&nbsp;
