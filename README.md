@@ -10,7 +10,7 @@
 
 &nbsp;&nbsp;
 
-| Property | Desciption  | Mandatory  | URI| Value |
+| Property | Desciption  | Mandatory  | URI| Type |
 | ---------| ----------- |:----------:| ---| ------|
 | language| Describes the language(s) in which you will fill in the metadata in this form. | true | | |
 | title| Describes the dataset in generic terms or gives a short description. The author is encouraged to write a meaningful description in one of the selected metadata language. | true | | |
@@ -30,7 +30,7 @@
 | regions covered | Describes the geographic area covered by the data set, based on the Nomenclature of Territorial Units for Statistics (NUTS). | true | | |
 | spatial| The extent of the dataset| false | dct:spatial | |
 | transportation modes| Describes the transportation mode(s) covered by the data set.| true | | |
-| license | Describes the conditions of use of the data set. | true | | |
+| license | Describes the conditions of use of the data set. | true | dc:license | rdf:resource |
 | license type | Describes the conditions of use of the data set. | true | | |
 | frequency | Describes the update rate of the data set. | true | | |
 | theme | Dataset theme | true | dcat:theme | |
@@ -41,7 +41,7 @@
 
 &nbsp;&nbsp;
 
-| Property | Desciption  | Mandatory  | URI| Value |
+| Property | Desciption  | Mandatory  | URI| Type |
 | ---------| ----------- |:----------:| ---| ------|
 | url | Resource URL, links must start with \"http://\", or \"https://\"| true | | |
 | name | Describes the resource you linked or uploaded in generic terms or gives a short description. The author is encouraged to write a meaningful description.| true | | |
