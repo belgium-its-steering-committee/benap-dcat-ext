@@ -12,7 +12,7 @@
 
 | Property | Desciption  | Mandatory  | URI| Type | Vocabulary |
 | ---------| ----------- |:----------:| ---| ------| --------- |
-| language| Describes the language(s) in which you will fill in the metadata in this form. | true | dct:language | | |
+| language| Describes the language(s) in which you will fill in the metadata in this form. | true | dct:language | | [metadata language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#metadata-language)|
 | title| Describes the dataset in generic terms or gives a short description. The author is encouraged to write a meaningful description in one of the selected metadata language. | true | dct:title | | |
 | description | Gives the user more information about the content of the dataset or service. This MUST be filled in all selected metadata languages. | true | | | |
 | resource type | Dataset or Service | true | dc:type | | |
@@ -52,7 +52,7 @@
 | data format data description | Can be optionally used to provide additional information on the data format.| false | | | |
 | access interface application layer protocol| Describes the IT protocol of the data interface that will be used to transfer data.| true | | | |
 | communication method| Describes the transmitting procedure from data provider to data receiver.| true | | | |
-| resource language| Describes the language of the data contents (text fields, addresses etc.)| true | dct:language | | |
+| resource language| Describes the language of the data contents (text fields, addresses etc.)| true | dct:language | | [data language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-language)|
 
         
         
