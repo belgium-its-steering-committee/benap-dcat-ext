@@ -48,10 +48,10 @@
 | data format encoding | This describes the atomic element of the transfer syntax description.| false | | | [data format encoding](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-encoding)|
 | data format syntax | This describes the base standard that specifies syntactically correct documents.| true | | | [data format syntax](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-syntax)|
 | data format grammar | This describes standards on top of the elementary syntax that describe data structures in the dataset.| false | | | [data format grammar](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-grammar)|
-| data format data model | This describes the specific data model used in the data.| true | | | |
+| data format data model | This describes the specific data model used in the data.| true | | | [data format datamodel](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-datamodel)|
 | data format data description | Can be optionally used to provide additional information on the data format.| false | | | |
-| access interface application layer protocol| Describes the IT protocol of the data interface that will be used to transfer data.| true | | | |
-| communication method| Describes the transmitting procedure from data provider to data receiver.| true | | | |
+| access interface application layer protocol| Describes the IT protocol of the data interface that will be used to transfer data.| true | | | [data protocol](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-protocol) |
+| communication method| Describes the transmitting procedure from data provider to data receiver.| true | | | [communication method](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#communication-method) |
 | resource language| Describes the language of the data contents (text fields, addresses etc.)| true | dct:language | | [data language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-language)|
 
         

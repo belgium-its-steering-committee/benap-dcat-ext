@@ -118,4 +118,49 @@
 | Other |   |
 
 
+## Data format datamodel
 
+| Desciption | Property  | 
+| ---------| ----------- |
+| DATEX II profile |   |
+| OCIT-C |   |
+| DATEX II Light |   |
+| NeTEX |   |
+| SIRI |   |
+| GTFS |   |
+| GBFS |   |
+| MDS |   |
+| VDV Standard |   |
+| IFOPT |   |
+| ETSI / ISO Model |   |
+| tpegML Model |   |
+| KML | http://publications.europa.eu/resource/authority/file-type/KML  |
+| MPEG-4 | http://publications.europa.eu/resource/authority/file-type/MPEG4  |
+| MDM-Container |   |
+| DINO |   |
+| OpenAPI |   |
+| Other |   |
+
+
+## Data protocol
+
+| Desciption | Property  | 
+| ---------| ----------- |
+| SOAP |   |
+| OTS2 |   |
+| HTTP/HTTPS |  http://publications.europa.eu/resource/authority/file-type/MSG_HTTP |
+| FTP |   |
+| RSS | http://publications.europa.eu/resource/authority/file-type/RSS |
+| AMQP |   |
+| MQTT |   |
+| gRPC |   |
+| Other |   |
+
+
+## Communication method
+
+| Desciption | Property  | 
+| ---------| ----------- |
+| Push |   |
+| Push on occurrence |   |
+| Pull |   |
