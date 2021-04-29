@@ -83,7 +83,7 @@
 | RÉGION WALLONNE|  http://data.europa.eu/nuts/code/BE3  |
 
 
-## Data encoding
+## Data format encoding
 
 | Desciption | Property  | 
 | ---------| ----------- |
@@ -93,4 +93,29 @@
 | ISO-8859-1 |   |
 | ISO-8859-15 |   |
 | Other |   |
+
+
+## Data format syntax
+
+| Desciption | Property  | 
+| ---------| ----------- |
+| XML |   |
+| JSON |   |
+| CSV |   |
+| ASN.1 encoding rules |   |
+| Protocol buffers |   |
+| Other |   |
+
+
+## Data format grammar
+
+| Desciption | Property  | 
+| ---------| ----------- |
+| XSD | http://publications.europa.eu/resource/authority/file-type/SCHEMA_XML  |
+| JSON Schema |   |
+| ASN.1 | http://purl.org/ASN/schema/core/StandardDocument  |
+| Protocol buffers |   |
+| Other |   |
+
+
 
