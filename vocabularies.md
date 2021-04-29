@@ -2,7 +2,7 @@
 
 ## metadata language
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | French | http://publications.europa.eu/resource/authority/language/FRA   |
 | English |  http://publications.europa.eu/resource/authority/language/ENG  |
@@ -12,7 +12,7 @@
 
 ## data language
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | Bulgarian |  http://publications.europa.eu/resource/authority/language/BUL  |
 | Croatian |  http://publications.europa.eu/resource/authority/language/HRV  |
@@ -42,7 +42,7 @@
 
 ## NAP countries
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | Belgium |  http://publications.europa.eu/resource/authority/country/BEL  |
 | Netherlands |  http://publications.europa.eu/resource/authority/country/NLD  |
@@ -76,7 +76,7 @@
 
 ## NAP regions
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | RÉGION DE BRUXELLES-CAPITALE/BRUSSELS HOOFDSTEDELIJK GEWEST |  http://data.europa.eu/nuts/code/BE1  |
 | VLAAMS GEWEST |  http://data.europa.eu/nuts/code/BE2  |
@@ -85,7 +85,7 @@
 
 ## Data format encoding
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | ASCII |   |
 | UTF-8 |   |
@@ -97,7 +97,7 @@
 
 ## Data format syntax
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | XML |   |
 | JSON |   |
@@ -109,7 +109,7 @@
 
 ## Data format grammar
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | XSD | http://publications.europa.eu/resource/authority/file-type/SCHEMA_XML  |
 | JSON Schema |   |
@@ -120,7 +120,7 @@
 
 ## Data format datamodel
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | DATEX II profile |   |
 | OCIT-C |   |
@@ -144,7 +144,7 @@
 
 ## Data protocol
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | SOAP |   |
 | OTS2 |   |
@@ -159,7 +159,7 @@
 
 ## Communication method
 
-| Desciption | Property  | 
+| Desciption | Value  | 
 | ---------| ----------- |
 | Push |   |
 | Push on occurrence |   |
