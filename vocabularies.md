@@ -184,3 +184,27 @@
 | ---------| ----------- |
 | Transport| http://publications.europa.eu/resource/authority/data-theme/TRAN |
 
+
+## Data update frequency
+
+| Desciption | Value  | 
+| ---------| ----------- |
+| On occurence |   |
+| Up to 1min |   |
+| Up to 5min |   |
+| Up to 10min |   |
+| Up to 15min |   |
+| Up to 30min | http://publications.europa.eu/resource/authority/frequency/BIHOURLY  |
+| Up to 1h |  http://publications.europa.eu/resource/authority/frequency/HOURLY |
+| Up to 2h |   |
+| Up to 3h |   |
+| Up to 12h | http://publications.europa.eu/resource/authority/frequency/DAILY_2  |
+| Up to 24h | http://publications.europa.eu/resource/authority/frequency/DAILY  |
+| Up to Weekly |  http://publications.europa.eu/resource/authority/frequency/WEEKLY |
+| Up to Monthly | http://publications.europa.eu/resource/authority/frequency/MONTHLY  |
+| Up to every 3month | http://publications.europa.eu/resource/authority/frequency/QUARTERLY  |
+| Up to every 6month | http://publications.europa.eu/resource/authority/frequency/ANNUAL_2  |
+| Up to yearly | http://publications.europa.eu/resource/authority/frequency/ANNUAL  |
+| Less frequent than yearly |   |
+
+
