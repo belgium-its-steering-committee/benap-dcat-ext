@@ -164,3 +164,23 @@
 | Push |   |
 | Push on occurrence |   |
 | Pull |   |
+
+
+## Data license
+
+| Desciption | Value  | 
+| ---------| ----------- |
+| No license – No contract |   |
+| Licence and Free of charge |   |
+| Licence and Fee |   |
+| Contract and Free of charge |   |
+| Contract and Fee |   |
+| Not relevant |   |
+
+
+## Data theme
+
+| Desciption | Value  | 
+| ---------| ----------- |
+| Transport| http://publications.europa.eu/resource/authority/data-theme/TRAN |
+

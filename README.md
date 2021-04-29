@@ -12,9 +12,9 @@
 
 | Property | Desciption  | Mandatory  | URI| Type | Vocabulary |
 | ---------| ----------- |:----------:| ---| ------| --------- |
-| language| Describes the language(s) in which you will fill in the metadata in this form. | true | dct:language | | [metadata language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#metadata-language)|
+| language| Describes the language(s) in which you will fill in the metadata in this form. | true | dc:language | | [metadata language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#metadata-language)|
 | title| Describes the dataset in generic terms or gives a short description. The author is encouraged to write a meaningful description in one of the selected metadata language. | true | dct:title | | |
-| description | Gives the user more information about the content of the dataset or service. This MUST be filled in all selected metadata languages. | true | | | |
+| description | Gives the user more information about the content of the dataset or service. This MUST be filled in all selected metadata languages. | true | dc:description | | |
 | resource type | Dataset or Service | true | dc:type | | |
 | organisation name | The \"contact point\", describes an organisation, if applicable a person, which is responsible for the creation and maintenance of the metadata. This person or organization is the single point of contact for the present metadata set.  | true | | | |
 | name contact point | Name contact point | true | dc:creator | | |
@@ -30,10 +30,10 @@
 | regions covered | Describes the geographic area covered by the data set, based on the Nomenclature of Territorial Units for Statistics (NUTS). | true | dct:spatial  | | [regions](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#nap-regions)|
 | spatial| The extent of the dataset| false | dct:spatial | locn:geometry | |
 | transportation modes| Describes the transportation mode(s) covered by the data set.| true | | | |
-| license | Describes the conditions of use of the data set. | true | dc:license | rdf:resource? | |
+| license | Describes the conditions of use of the data set. | true | dc:license | | [license](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-license)|
 | license type | Describes the conditions of use of the data set. | true | | | |
 | frequency | Describes the update rate of the data set. | true | dct:accrualPeriodicity | | |
-| theme | Dataset theme | true | dcat:theme | | |
+| theme | Dataset theme | true | dcat:theme | | [theme](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-theme)|
 
 &nbsp;&nbsp;
 
@@ -49,10 +49,10 @@
 | data format syntax | This describes the base standard that specifies syntactically correct documents.| true | | | [data format syntax](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-syntax)|
 | data format grammar | This describes standards on top of the elementary syntax that describe data structures in the dataset.| false | | | [data format grammar](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-grammar)|
 | data format data model | This describes the specific data model used in the data.| true | | | [data format datamodel](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-datamodel)|
-| data format data description | Can be optionally used to provide additional information on the data format.| false | | | |
+| data format data description | Can be optionally used to provide additional information on the data format.| false | dc:description | | |
 | access interface application layer protocol| Describes the IT protocol of the data interface that will be used to transfer data.| true | | | [data protocol](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-protocol) |
 | communication method| Describes the transmitting procedure from data provider to data receiver.| true | | | [communication method](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#communication-method) |
-| resource language| Describes the language of the data contents (text fields, addresses etc.)| true | dct:language | | [data language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-language)|
+| resource language| Describes the language of the data contents (text fields, addresses etc.)| true | dc:language | | [data language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-language)|
 
         
         
