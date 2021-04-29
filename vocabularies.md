@@ -2,7 +2,7 @@
 
 ## metadata language
 
-| Property | Desciption  | 
+| Desciption | Property  | 
 | ---------| ----------- |
 | French | http://publications.europa.eu/resource/authority/language/FRA   |
 | English |  http://publications.europa.eu/resource/authority/language/ENG  |
@@ -12,7 +12,7 @@
 
 ## data language
 
-| Property | Desciption  | 
+| Desciption | Property  | 
 | ---------| ----------- |
 | Bulgarian |  http://publications.europa.eu/resource/authority/language/BUL  |
 | Croatian |  http://publications.europa.eu/resource/authority/language/HRV  |
@@ -39,4 +39,57 @@
 | Spanish |  http://publications.europa.eu/resource/authority/language/SPA  |
 | Swedish |  http://publications.europa.eu/resource/authority/language/SWE  |
 
+
+## NAP countries
+
+| Desciption | Property  | 
+| ---------| ----------- |
+| Belgium |  http://publications.europa.eu/resource/authority/country/BEL  |
+| Netherlands |  http://publications.europa.eu/resource/authority/country/NLD  |
+| France |  http://publications.europa.eu/resource/authority/country/FRA  |
+| Germany |  http://publications.europa.eu/resource/authority/country/DEU  |
+| Luxembourg |  http://publications.europa.eu/resource/authority/country/LUX  |
+| United Kingdom |  http://publications.europa.eu/resource/authority/country/GBR  |
+| Bulgaria |  http://publications.europa.eu/resource/authority/country/BGR  |
+| Czechia |  http://publications.europa.eu/resource/authority/country/CZE  |
+| Denmark |  http://publications.europa.eu/resource/authority/country/DNK  |
+| Estonia |  http://publications.europa.eu/resource/authority/country/EST  |
+| Ireland |  http://publications.europa.eu/resource/authority/country/IRL  |
+| Greece |  http://publications.europa.eu/resource/authority/country/GRC  |
+| Spain |  http://publications.europa.eu/resource/authority/country/ESP  |
+| Croatia |  http://publications.europa.eu/resource/authority/country/HRV  |
+| Italy |  http://publications.europa.eu/resource/authority/country/ITA  |
+| Cyprus |  http://publications.europa.eu/resource/authority/country/CYP  |
+| Latvia |  http://publications.europa.eu/resource/authority/country/LVA  |
+| Lithuania |  http://publications.europa.eu/resource/authority/country/LTU  |
+| Hungary |  http://publications.europa.eu/resource/authority/country/HUN  |
+| Malta |  http://publications.europa.eu/resource/authority/country/MLT  |
+| Austria |  http://publications.europa.eu/resource/authority/country/AUT  |
+| Poland |  http://publications.europa.eu/resource/authority/country/POL  |
+| Portugal |  http://publications.europa.eu/resource/authority/country/PRT  |
+| Romania |  http://publications.europa.eu/resource/authority/country/ROU  |
+| Slovenia |  http://publications.europa.eu/resource/authority/country/SVN  |
+| Slovakia |  http://publications.europa.eu/resource/authority/country/SVK  |
+| Finland |  http://publications.europa.eu/resource/authority/country/FIN  |
+| Sweden |  http://publications.europa.eu/resource/authority/country/SWE  |
+
+
+## NAP regions
+
+| Desciption | Property  | 
+| ---------| ----------- |
+| RÉGION DE BRUXELLES-CAPITALE/BRUSSELS HOOFDSTEDELIJK GEWEST |  http://data.europa.eu/nuts/code/BE1  |
+| VLAAMS GEWEST |  http://data.europa.eu/nuts/code/BE2  |
+| RÉGION WALLONNE|  http://data.europa.eu/nuts/code/BE3  |
+
+## NAP encoding
+
+| Desciption | Property  | 
+| ---------| ----------- |
+| ASCII |   |
+| UTF-8 |   |
+| UTF-16 |   |
+| ISO-8859-1 |   |
+| ISO-8859-15 |   |
+| Other |   |
 
