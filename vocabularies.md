@@ -204,6 +204,34 @@
 |Other (Non-Commercial)||
 |Other (Not Open)||
 
+## Transportation modes
+
+| Desciption | Value  | 
+| ---------| ----------- |
+| Air | |
+| Rail (including high speed rail) | |
+| Conventional rail | |
+| Light rail | |
+| Long-distance coach | |
+| Maritime (including ferry) | |
+| Metro | |
+| Tram | |
+| Bus | |
+| Trolleybus | |
+| Shuttle bus | |
+| Shuttle ferry | |
+| Taxi | |
+| Car-sharing | |
+| Car-pooling | |
+| Car-hire | |
+| Bike-sharing | |
+| Bike-hire | |
+| Car | |
+| Truck | |
+| Motorcycle | |
+| Cycle | |
+| Pedestrian | |
+
 ## Data theme
 
 | Desciption | Value  | 
