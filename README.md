@@ -29,7 +29,7 @@
 | countries covered | Describes the countries covered by the data set (Belgium is mandatory) | true | dct:spatial  | | [countries](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#nap-countries)|
 | regions covered | Describes the geographic area covered by the data set, based on the Nomenclature of Territorial Units for Statistics (NUTS). | true | dct:spatial  | | [regions](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#nap-regions)|
 | spatial| The extent of the dataset| false | dct:spatial | locn:geometry | |
-| transportation modes| Describes the transportation mode(s) covered by the data set.| true | | | |
+| transportation modes| Describes the transportation mode(s) covered by the data set.| true | | | [transportation modes](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#transportation-modes) |
 | license | Describes the conditions of use of the data set. | true |  | | [license or contract](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-contract-or-license)|
 | license type | Describes the conditions of use of the data set. | true | dc:license | | [license](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-license) |
 | frequency | Describes the update rate of the data set. | true | dct:accrualPeriodicity | | [data update frequency](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-update-frequency)|
