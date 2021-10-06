@@ -24,8 +24,8 @@
 | e-mail publisher | E-mail publisher | true | | | |
 | website publisher | The website address must start with \"http://\", or \"https:// | false | | | |
 | telephone number publisher | The telephone number must start with the country prefix (e.g. \",+32\" for Belgium) and may only contain numbers from 0 to 9 besides the \"+\" sign. | true | | | |
-| start data of publication + time | Describes from which date and time on the data delivery is applicable.| true | dc:issued | | |
-| end data of publication + time | Describes the date when data delivery to this publication terminates.| false | | | |
+| start date of publication + time | Describes from which date and time on the data delivery is applicable.| true | dc:issued | | |
+| end date of publication + time | Describes the date when data delivery to this publication terminates.| false | | | |
 | countries covered | Describes the countries covered by the data set (Belgium is mandatory) | true | dct:spatial  | | [countries](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#nap-countries)|
 | regions covered | Describes the geographic area covered by the data set, based on the Nomenclature of Territorial Units for Statistics (NUTS). | true | dct:spatial  | | [regions](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#nap-regions)|
 | spatial| The extent of the dataset| false | dct:spatial | locn:geometry | |
