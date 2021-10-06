@@ -172,7 +172,7 @@
 | Pull |   |
 
 
-## Data license
+## Data contract or license
 
 | Desciption | Value  | 
 | ---------| ----------- |
@@ -183,6 +183,26 @@
 | Contract and Fee |   |
 | Not relevant |   |
 
+
+## Data license
+
+| Desciption | Value  | 
+| ---------| ----------- |
+|License not specified||
+|Open Data Commons Public Domain Dedication and License (PDDL)|http://www.opendefinition.org/licenses/odc-pddl|
+|Open Data Commons Open Database License (ODbL)|http://www.opendefinition.org/licenses/odc-odbl|
+|Open Data Commons Attribution License|http://www.opendefinition.org/licenses/odc-by|
+|Creative Commons CCZero|http://www.opendefinition.org/licenses/cc-zero|
+|Creative Commons Attribution|http://www.opendefinition.org/licenses/cc-by|
+|Creative Commons Attribution Share-Alike|http://www.opendefinition.org/licenses/cc-by-sa|
+|GNU Free Documentation License|http://www.opendefinition.org/licenses/gfdl|
+|Other (Open)||
+|Other (Public Domain)||
+|Other (Attribution)||
+|UK Open Government Licence (OGL)|http://reference.data.gov.uk/id/open-government-licence|
+|Creative Commons Non-Commercial (Any)|http://creativecommons.org/licenses/by-nc/2.0/|
+|Other (Non-Commercial)||
+|Other (Not Open)||
 
 ## Data theme
 
