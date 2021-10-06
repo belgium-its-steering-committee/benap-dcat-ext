@@ -13,9 +13,9 @@
 | Property | Desciption  | Mandatory  | URI| Type | Vocabulary |
 | ---------| ----------- |:----------:| ---| ------| --------- |
 | language| Describes the language(s) in which you will fill in the metadata in this form. | true | dc:language | | [metadata language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#metadata-language)|
-| title| Describes the dataset in generic terms or gives a short description. The author is encouraged to write a meaningful description in one of the selected metadata language. | true | dct:title | | |
+| title (name of the dataset)| Describes the dataset in generic terms or gives a short description. The author is encouraged to write a meaningful description in one of the selected metadata language. | true | dct:title | | |
 | description | Gives the user more information about the content of the dataset or service. This MUST be filled in all selected metadata languages. | true | dc:description | | |
-| resource type | Dataset or Service | true | dc:type | | |
+| resource type | Dataset or Service | true | dc:type | | [resource type](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#resource-type) |
 | organisation name | The \"contact point\", describes an organisation, if applicable a person, which is responsible for the creation and maintenance of the metadata. This person or organization is the single point of contact for the present metadata set.  | true | | | |
 | name contact point | Name contact point | true | dc:creator | | |
 | organisation name publisher | The \"publisher\" describes an entity (company and person) that publishes the datasets (we are not refering to the metadata here, but rather to the data themselves). He or she is responsible for the given information and must be contacted by data consumers if a contract needs to be concluded.| true | | | |
