@@ -82,6 +82,12 @@
 | VLAAMS GEWEST |  http://data.europa.eu/nuts/code/BE2  |
 | RÉGION WALLONNE|  http://data.europa.eu/nuts/code/BE3  |
 
+## Resource type
+
+| Desciption | Value  | 
+| ---------| ----------- |
+| DATASET |  |
+| SERVICE |  |
 
 ## Data format encoding
 
