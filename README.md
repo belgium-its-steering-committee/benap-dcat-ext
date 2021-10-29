@@ -19,7 +19,7 @@
 | organisation name | The \"contact point\", describes an organisation, if applicable a person, which is responsible for the creation and maintenance of the metadata. This person or organization is the single point of contact for the present metadata set.  | true | dcat:contactPoint | [vcard](https://www.w3.org/TR/vocab-dcat/#bib-vcard-rdf") | |
 | name contact point | Name contact point | true |  | | |
 | organisation name publisher | The \"publisher\" describes an entity (company and person) that publishes the datasets (we are not refering to the metadata here, but rather to the data themselves). He or she is responsible for the given information and must be contacted by data consumers if a contract needs to be concluded.| true | | | |
-| name publisher | Name publisher | true | dct:publisher | | |
+| name publisher | Name publisher | true | dct:publisher |  [vcard](https://www.w3.org/TR/vocab-dcat/#bib-vcard-rdf") | |
 | address publisher | Address publisher | true | | | |
 | e-mail publisher | E-mail publisher | true | | | |
 | website publisher | The website address must start with \"http://\", or \"https:// | false | | | |
