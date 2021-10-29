@@ -89,6 +89,13 @@
 | DATASET |  |
 | SERVICE |  |
 
+## Visibility
+
+| Desciption | Value  | 
+| ---------| ----------- |
+| PUBLIC |  |
+| PRIVATE |  |
+
 ## Data format encoding
 
 | Desciption | Value  | 
