@@ -118,7 +118,7 @@
 | Desciption | Value  | 
 | ---------| ----------- |
 | XSD | http://publications.europa.eu/resource/authority/file-type/SCHEMA_XML  |
-| JSON Schema |   |
+| JSON Schema | https://json-schema.org/specification.html |
 | ASN.1 | http://purl.org/ASN/schema/core/StandardDocument  |
 | Protocol buffers |   |
 | Other |   |
