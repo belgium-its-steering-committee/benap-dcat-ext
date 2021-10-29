@@ -1,0 +1,14 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix locn: <http://www.w3.org/ns/locn> .
+
+<Dutch-postal> a dcat:Dataset ;
+  dct:title "Adressen"@nl ;
+  dct:title "Addresses"@en ;
+  dct:description """INSPIRE Adressen afkomstig uit de basisregistratie Adressen,
+                   beschikbaar voor heel Nederland"""@nl ;
+  dct:description """INSPIRE addresses derived from the Addresses base registry,
+                   available for the Netherlands"""@en ;
