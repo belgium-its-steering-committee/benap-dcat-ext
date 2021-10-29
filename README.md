@@ -24,20 +24,20 @@
 | e-mail publisher | E-mail publisher | true | | | |
 | website publisher | The website address must start with \"http://\", or \"https:// | false | | | |
 | telephone number publisher | The telephone number must start with the country prefix (e.g. \",+32\" for Belgium) and may only contain numbers from 0 to 9 besides the \"+\" sign. | true | | | |
-| start date of publication + time | Describes from which date and time on the data delivery is applicable.| true | dc:issued | | |
-| end date of publication + time | Describes the date when data delivery to this publication terminates.| false | | | |
+| start date of publication + time | Describes from which date and time on the data delivery is applicable.| true | dct:PeriodOfTime | dcat:startDate | |
+| end date of publication + time | Describes the date when data delivery to this publication terminates.| false | dct:PeriodOfTime | dcat:endDate | |
 | countries covered | Describes the countries covered by the data set (Belgium is mandatory) | true | dct:spatial  | | [countries](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#nap-countries)|
 | regions covered | Describes the geographic area covered by the data set, based on the Nomenclature of Territorial Units for Statistics (NUTS). | true | dct:spatial  | | [regions](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#nap-regions)|
 | spatial| The extent of the dataset| false | dct:spatial | locn:geometry | |
 | transportation modes| Describes the transportation mode(s) covered by the data set.| true | | | [transportation modes](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#transportation-modes) |
-| license | Describes the conditions of use of the data set. | true |  | | [license or contract](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-contract-or-license)|
-| license type | Describes the conditions of use of the data set. | true | dc:license | | [license](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-license) |
+| license | Describes the conditions of use of the data set. | true | dct:rights | | [license or contract](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-contract-or-license)|
+| license type | Describes the conditions of use of the data set. | true | dct:license | | [license](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-license) |
 | frequency | Describes the update rate of the data set. | true | dct:accrualPeriodicity | | [data update frequency](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-update-frequency)|
 | theme | Dataset theme | true | dcat:theme | | [theme](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-theme)|
 
 &nbsp;&nbsp;
 
-### resource (dcat:Resource)
+### resource (dcat:distribution)
 
 &nbsp;&nbsp;
 
@@ -49,10 +49,10 @@
 | data format syntax | This describes the base standard that specifies syntactically correct documents.| true | | | [data format syntax](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-syntax)|
 | data format grammar | This describes standards on top of the elementary syntax that describe data structures in the dataset.| false | | | [data format grammar](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-grammar)|
 | data format data model | This describes the specific data model used in the data.| true | | | [data format datamodel](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-datamodel)|
-| data format data description | Can be optionally used to provide additional information on the data format.| false | dc:description | | |
+| data format data description | Can be optionally used to provide additional information on the data format.| false | 	dct:description | | |
 | access interface application layer protocol| Describes the IT protocol of the data interface that will be used to transfer data.| true | | | [data protocol](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-protocol) |
 | communication method| Describes the transmitting procedure from data provider to data receiver.| true | | | [communication method](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#communication-method) |
-| resource language| Describes the language of the data contents (text fields, addresses etc.)| true | dc:language | | [data language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-language)|
+| resource language| Describes the language of the data contents (text fields, addresses etc.)| true | dct:language | | [data language](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-language)|
 
         
         
