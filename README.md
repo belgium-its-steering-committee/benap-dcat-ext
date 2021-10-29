@@ -6,7 +6,7 @@
 &nbsp;&nbsp;
 
 
-### metadata
+### metadata. (dcat:dataset)
 
 &nbsp;&nbsp;
 
@@ -37,7 +37,7 @@
 
 &nbsp;&nbsp;
 
-### resource
+### resource (dcat:Resource)
 
 &nbsp;&nbsp;
 
