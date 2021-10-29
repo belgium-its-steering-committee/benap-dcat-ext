@@ -12,3 +12,4 @@
                    beschikbaar voor heel Nederland"""@nl ;
   dct:description """INSPIRE addresses derived from the Addresses base registry,
                    available for the Netherlands"""@en ;
+.
