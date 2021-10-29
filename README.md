@@ -46,7 +46,7 @@
 | url | Resource URL, links must start with \"http://\", or \"https://\"| true | dcat:accessURL | | |
 | name | Describes the resource you linked or uploaded in generic terms or gives a short description. The author is encouraged to write a meaningful description.| true | dct:title | | |
 | data format encoding | This describes the atomic element of the transfer syntax description.| false | | | [data format encoding](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-encoding)|
-| data format syntax | This describes the base standard that specifies syntactically correct documents.| true | | | [data format syntax](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-syntax)|
+| data format syntax | This describes the base standard that specifies syntactically correct documents.| true | dcat:mediaType | | [data format syntax](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-syntax)|
 | data format grammar | This describes standards on top of the elementary syntax that describe data structures in the dataset.| false | | | [data format grammar](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-grammar)|
 | data format data model | This describes the specific data model used in the data.| true | | | [data format datamodel](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#data-format-datamodel)|
 | data format data description | Can be optionally used to provide additional information on the data format.| false | 	dct:description | | |
