@@ -105,12 +105,12 @@
 
 | Desciption | Value  | 
 | ---------| ----------- |
-| XML |   |
-| JSON |   |
-| CSV |   |
-| ASN.1 encoding rules |   |
-| Protocol buffers |   |
-| Other |   |
+| XML | application/xml |
+| JSON | application/json |
+| CSV | text/csv |
+| ASN.1 encoding rules | application/fastsoap |
+| Protocol buffers | application/protobuf |
+| Other | other |
 
 
 ## Data format grammar
