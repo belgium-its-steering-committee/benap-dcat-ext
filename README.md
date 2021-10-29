@@ -17,7 +17,7 @@
 | description | Gives the user more information about the content of the dataset or service. This MUST be filled in all selected metadata languages. Can be added in multiple languages, see example [here](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/examples/multilanguage.xml) or [here](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/examples/multilanguage.ttl)| true | dct:description | | |
 | resource type | Dataset or Service | true | dct:type | | [resource type](https://github.com/belgium-its-steering-committee/benap-dcat-ext/blob/main/vocabularies.md#resource-type) |
 | organisation name | The \"contact point\", describes an organisation, if applicable a person, which is responsible for the creation and maintenance of the metadata. This person or organization is the single point of contact for the present metadata set.  | true | dcat:contactPoint | [vcard](https://www.w3.org/TR/vocab-dcat/#bib-vcard-rdf") | |
-| name contact point | Name contact point | true | dc:creator | | |
+| name contact point | Name contact point | true |  | | |
 | organisation name publisher | The \"publisher\" describes an entity (company and person) that publishes the datasets (we are not refering to the metadata here, but rather to the data themselves). He or she is responsible for the given information and must be contacted by data consumers if a contract needs to be concluded.| true | | | |
 | name publisher | Name publisher | true | dct:publisher | | |
 | address publisher | Address publisher | true | | | |
